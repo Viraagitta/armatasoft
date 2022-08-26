@@ -1,0 +1,16 @@
+coding kerjakan di tempat saat interiew:
+-pada saat halaman index ditampilkan, panggil action untuk mengambil data dari file yang diberikan
+-data tersebut kemudian disimpan kedalam redux
+-index menampilkan data dari redux yang telah diisi data sesuai baris dan kolom (1 baris 60 kolom)
+-pada index 0 dari kolom tiap baris, ubah data menjadi nomor baris.
+-bila angka yang akan ditampilkan sama dengan angka sebelumnya maka ganti dengan "before"
+contoh: 
+[
+	[1, 5, 7, 7, 9, 5]
+	[5, 2, 3, 5, 8, 1]
+]
+menjadi
+[
+	[Baris1, 5, 7, before, 9, 5]
+	[Baris2, 2, 3, 5, 8, 1]
+]
